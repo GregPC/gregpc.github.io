@@ -1,20 +1,21 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 
+<!--Head inicio-->
 <head>
-	<title>Home - Centro do Alumínio</title>
+	<title>Centro do Alumínio</title>
 	<meta charset="UTF-8">
 	<meta name="description" content="Centro do Alumínio">
+	
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
 	<!-- Favicon -->
-	<link href="img/favicon.ico" rel="shortcut icon" />
+	<link href="img/favicon.ico" rel="shortcut icon"/>
 
 	<!-- Google font -->
-	<link
-		href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
-		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-
+	
 	<!-- Stylesheets -->
 	<link rel="stylesheet" href="css/bootstrap.min.css" />
 	<link rel="stylesheet" href="css/font-awesome.min.css" />
@@ -23,10 +24,16 @@
 	<link rel="stylesheet" href="css/image-test.css" />
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="http://gregpc.github.io/css/style.css" />
+	<link rel="stylesheet" href="css/style.css"/>
 	<link href="viewer.css" rel="stylesheet">
 
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
 </head>
+<!--Head Fim-->
 
 <body>
 	<div id="preloder">
@@ -34,16 +41,16 @@
 	</div>
 
 	<!-- Header section -->
-	<header class="header-section sticky-top clearfix">
-		<a href="index.html" class="site-logo">
-			<img src="img/logo.svg" style="width: 300px" alt="logo-site">
+       <header class=" header-section sticky-top clearfix">
+		<a href="index.php" class="site-logo">
+			<img src="img/logo.svg" style="width: 220px" alt="logo-site">
 		</a>
 		<ul class="main-menu">
 			<li><a href="index.html">Home</a></li>
-			<li><a href="sobre.html">Sobre</a></li>
-			<li><a href="segmentos.html">Segmentos</a></li>
-			<li><a href="setor-projetos.html">Serviços</a></li>
-			<li><a href="contato.html">Contato</a></li>
+			<li><a href="sobre.php">Sobre</a></li>
+			<li><a href="segmentos.php">Segmentos</a></li>
+			<li><a href="setor-projetos.php">Serviços</a></li>
+			<li><a href="contato.php">Contato</a></li>
 		</ul>
 	</header>
 	<!-- Header section end -->
@@ -231,7 +238,7 @@
 							faça orçamentos de planos de corte e envie seus pedidos de corte,
 							borda, canaletados e furação de maneira totalmente remota, para nosso setor de projetos</p>
 						<div style="margin-bottom: 20px; ">
-							<a href="#" class="site-btn" style="margin-bottom: 20px;">Saiba mais</a>
+							<a href="setor-projetos.php" class="site-btn" style="margin-bottom: 20px;">Saiba mais</a>
 						</div>
 					</div>
 				</div>
@@ -262,7 +269,7 @@
 							faça orçamentos de planos de corte e envie seus pedidos de corte,
 							borda, canaletados e furação de maneira totalmente remota, para nosso setor de projetos</p>
 						<div style="margin-bottom: 20px;">
-							<a href="profissionais.html" target="_blank" class="site-btn" style="margin-bottom: 20px;">Saiba mais</a>
+							<a href="profissionais.php" target="_blank" class="site-btn" style="margin-bottom: 20px;">Saiba mais</a>
 						</div>
 					</div>
 				</div>
@@ -315,12 +322,11 @@
 
 	<!-- Slogan::Begin -->
 	<section class="slogan spad">
-		<div class="container text-center">
-			<img src="img/parque-10.png" style=" display: inline-block;" alt="">
-		</div>
-	</section>
+	<div class="container text-center">
+        <img  src="img/parque-10.png" style=" display: inline-block;" alt="">
+        </div>
+        </section>
 	<!-- Slogan::End -->
-
 
 	<!-- Footer::Begin -->
 	<footer class="site-footer">
@@ -387,20 +393,56 @@
 	</footer>
 	<!-- Footer::End -->
 
-	<!-- Scripts::Begin -->
+
 	<!--====== Javascripts & Jquery ======-->
-	<script src="js/jquery-3.2.1.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.slicknav.min.js"></script>
-	<script src="js/owl.carousel.min.js"></script>
-	<script src="js/mixitup.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mixitup.min.js"></script>
 
-	<!--====== Isotope ======-->
-	<script src="js/isotope.pkgd.min.js"></script>
+<!--====== Isotope ======-->
+<script src="js/isotope.pkgd.min.js"></script>
 
-	<!--====== Script ======-->
-	<script src="js/main.js"></script>
-	<!-- Scripts::End -->
+<!--====== Script ======-->
+<script src="js/main.js"></script>
+
+<script>
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		// Next/previous controls
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		// Thumbnail image controls
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("demo");
+			var captionText = document.getElementById("caption");
+			if (n > slides.length) {
+				slideIndex = 1
+			}
+			if (n < 1) {
+				slideIndex = slides.length
+			}
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+			captionText.innerHTML = dots[slideIndex - 1].alt;
+		}
+	</script>
 
 </body>
 
