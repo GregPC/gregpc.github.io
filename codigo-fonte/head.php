@@ -20,7 +20,7 @@
 	<link rel="stylesheet" href="css/image-test.css" />
 
 	<!-- Main Stylesheets -->
-	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="http://gregpc.github.io/css/style.css" />
 	<link href="viewer.css" rel="stylesheet">
 
 	<!--[if lt IE 9]>
