@@ -3,7 +3,7 @@
 Web Site Beta
 
 - Sobre o Projeto
-Projeto realizado durante o curso de Bootstrap 4 da Origamid
+Projeto pra Empresa Centro do Aluminio
 
 
 - Tecnologias
