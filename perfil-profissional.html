@@ -2,7 +2,32 @@
 <html lang="pt-br">
 
 <!--Head inicio-->
-<?php require ("codigo-fonte/head.php"); ?>
+<head>
+	<title>Centro do Alumínio</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="Centro do Alumínio">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Favicon -->
+	<link href="img/favicon.ico" rel="shortcut icon" />
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" href="css/bootstrap.min.css" />
+	<link rel="stylesheet" href="css/font-awesome.min.css" />
+	<link rel="stylesheet" href="css/owl.carousel.min.css" />
+	<link rel="stylesheet" href="css/slicknav.min.css" />
+	<link rel="stylesheet" href="css/image-test.css" />
+
+	<!-- Main Stylesheets -->
+	<link rel="stylesheet" href="css/style.css" />
+	<link href="viewer.css" rel="stylesheet">
+
+</head>
 <!--Head Fim-->
 
 <body>
@@ -10,9 +35,20 @@
 	<div id="preloder">
 		<div class="loader"></div>
 	</div>
-
+	
 	<!-- Header section -->
-	<?php require ("codigo-fonte/header.php"); ?>
+	<header class=" header-section sticky-top clearfix">
+		<a href="index.html" class="site-logo">
+			<img src="img/logo.svg" style="width: 220px" alt="logo-site">
+		</a>
+		<ul class="main-menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="sobre.html">Sobre</a></li>
+			<li><a href="segmentos.html">Segmentos</a></li>
+			<li><a href="setor-projetos.html">Serviços</a></li>
+			<li><a href="contato.html">Contato</a></li>
+		</ul>
+	</header>
 	<!-- Header section end -->
 
 	<!--Banner mkt-->
@@ -197,20 +233,131 @@
 	</section>
 	Songs details section -->
 
-	<!-- Slogan::Begin -->
-	<?php require ("codigo-fonte/slogan.php"); ?>
-	<!-- Slogan::End -->
+<!-- Slogan::Begin -->
+<section class="slogan spad">
+	<div class="container text-center">
+		<img src="img/parque-10.png" style=" display: inline-block;" alt="">
+	</div>
+</section>
+<!-- Slogan::End -->
 
+<!-- Footer::Begin -->
+<footer class="site-footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-12 col-md-4">
+				<h6>Nossa Empresa</h6>
+				<p class="text-justify pt-2 footer-text">Comércio inovador de construção a seco. Aqui você encontra
+					tudo em marcenaria, vidraçaria, serralheria, drywall, energia solar e ferramentas manuais,
+					elétricas e muito mais.</p>
+			</div>
+			<div class="col-xs-6 col-md-4">
+				<h6>Produtos</h6>
+				<ul class="footer-links pt-2">
+					<li><a href="https://centrodoaluminio.lojistaonline.com.br/marcenaria/192/departamento/"
+							target="_blank">- Marcenária</a></li>
+					<li><a href="https://centrodoaluminio.lojistaonline.com.br/serralheria-vidracaria/193/departamento/"
+							target="_blank">- Alumínio / Vidro</a></li>
+					<li><a href="https://centrodoaluminio.lojistaonline.com.br/energia-solar/210/departamento/"
+							target="_blank">- Energia Solar</a></li>
+					<li><a href="https://centrodoaluminio.lojistaonline.com.br/gesso/197/departamento/"
+							target="_blank">- Gesso</a></li>
+				</ul>
+			</div>
+			<div class="col-xs-6 col-md-4">
+				<h6>Quick Links</h6>
+				<ul class="footer-links pt-2">
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8 col-sm-6 col-xs-12">
+				<p class="copyright-text">&copy; 2020 GMAD - Centro do Alumínio | Todos direitos reservados.</p>
+				<p class="copyright-text">Avenida Tancredo Neves, nº 1110, Parque 10 de Novembro - CEP: 69054-700 -
+					Manaus/AM<br>
+					CNPJ: 123.456.789/0000-1-234 | Inscrição Estadual: 123.456.789</p>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<ul class="social-icons">
+					<li><a class="facebook" href="https://pt-br.facebook.com/centrodoaluminio"><i
+								class="fa fa-facebook"></i></a></li>
+					<li><a class="instagram" href="https://www.instagram.com/centrodoaluminio"><i
+								class="fa fa-instagram"></i></a></li>
+					<li><a class="whatsapp" href="https://api.whatsapp.com/send?phone=5592982422000"><i
+								class="fa fa-whatsapp"></i></a></li>
+				</ul>
+				<div class="text-center greg">
+					<p
+						style="font-size: 13px !important; color: #fff !important; padding-top: 10px !important; font-weight: 200 !important;">
+						Desenvolvedor Web <a href="https://www.linkedin.com/in/greg-lee-carvalho/"
+							style="text-decoration: none; color: #fff;">Greg Lee.</a></p>
+				</div>
 
-	<!-- Footer::Begin -->
-	<?php require ("codigo-fonte/footer.php"); ?>
-	<!-- Footer::End -->
+			</div>
+		</div>
+	</div>
+</footer>
+<!-- Footer::End -->
 
+<!-- Scripts::Begin -->
+<!--====== Javascripts & Jquery ======-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/mixitup.min.js"></script>
 
-	<!-- Scripts::Begin -->
-	<!--====== Javascripts & Jquery ======-->
-	<?php require ("codigo-fonte/script.php"); ?>
-	<!-- Scripts::End -->
+<!--====== Isotope ======-->
+<script src="js/isotope.pkgd.min.js"></script>
+
+<!--====== Script ======-->
+<script src="js/main.js"></script>
+
+<script>
+	var slideIndex = 1;
+	showSlides(slideIndex);
+
+	// Next/previous controls
+	function plusSlides(n) {
+		showSlides(slideIndex += n);
+	}
+
+	// Thumbnail image controls
+	function currentSlide(n) {
+		showSlides(slideIndex = n);
+	}
+
+	function showSlides(n) {
+		var i;
+		var slides = document.getElementsByClassName("mySlides");
+		var dots = document.getElementsByClassName("demo");
+		var captionText = document.getElementById("caption");
+		if (n > slides.length) {
+			slideIndex = 1
+		}
+		if (n < 1) {
+			slideIndex = slides.length
+		}
+		for (i = 0; i < slides.length; i++) {
+			slides[i].style.display = "none";
+		}
+		for (i = 0; i < dots.length; i++) {
+			dots[i].className = dots[i].className.replace(" active", "");
+		}
+		slides[slideIndex - 1].style.display = "block";
+		dots[slideIndex - 1].className += " active";
+		captionText.innerHTML = dots[slideIndex - 1].alt;
+	}
+</script>
+<!-- Scripts::End -->
 
 </body>
 
