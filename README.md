@@ -3,7 +3,7 @@
 Web Site Beta
 
 - Sobre o Projeto
-Projeto pra Empresa Centro do Aluminio
+Projeto para Empresa Centro do Aluminio
 
 
 - Tecnologias
