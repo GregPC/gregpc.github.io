@@ -109,7 +109,7 @@ Helper CSS
 }
 
 .banner-profissional {
-	background-image: url('../img/banner/banner-trabalhador.svg') !important;
+	background-image: url('/img/banner/banner-trabalhador.svg') !important;
 	background-size: cover;
 	background-position: center;
 }
