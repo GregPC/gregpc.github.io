@@ -109,7 +109,7 @@ Helper CSS
 }
 
 .banner-profissional {
-	background-image: url('/img/banner/banner-trabalhador.png') !important;
+	background-image: url('../img/banner/banner-trabalhador.jpg') !important;
 	background-size: cover;
 	background-position: center;
 }
@@ -128,8 +128,6 @@ Helper CSS
 	background-color: hsla(130, 110%, 10%, 0.7);
 	
 }
-
-
 
 .text-section {
 	text-align: center;
@@ -162,8 +160,6 @@ Helper CSS
 	padding-top: 50px;
 	padding-bottom: 30px;
 }
-
-
 
 .text-white h1,
 .text-white h2,
@@ -591,15 +587,9 @@ Hero section
 
 
 #banner-1 {
-	background-image: url('../img/home/background-banner.png');
+	background-image: url('../img/home/background-banner.jpg');
 	background-repeat: no-repeat;
 	background-position-x: center;
-}
-
-#banner-projetos {
-	background-image: url('../img/home/banner-projetos.png');
-	background-repeat: no-repeat;
-	background-position: center;
 }
 
 .background-setor-projetos {
